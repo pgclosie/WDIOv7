@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": false,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "lib": ["es2019", "dom", "dom.iterable", "scripthost"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "paths": {
+      "@/*": ["*"]
+    },
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2019",
+    "typeRoots": ["node_modules/@types"],
+    "types": ["chai", "mocha", "webdriverio/sync"]
+  },
+  "exclude": ["node_modules"],
+  "include": ["./**/*.ts"]
+}

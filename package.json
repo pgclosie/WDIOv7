@@ -1,0 +1,43 @@
+{
+  "name": "wdio",
+  "version": "0.0.0",
+  "private": true,
+  "repository": {
+    "type": "git"
+  },
+  "engines": {
+    "node": ">=12.15.0",
+    "npm": ">=6.4.0"
+  },
+  "scripts": {
+    "e2e:local": "wdio",
+    "reports": "allure generate allure-results -o allure-reports --clean && allure serve",
+    "reports:clear": "del .\\allure-results /Q /S && del .\\allure-reports /Q /S",
+    "reports:generate": "allure generate allure-results -o allure-reports --clean",
+    "reports:serve": "allure serve"
+  },
+  "dependencies": {
+    "@applitools/eyes-webdriverio": "^5.29.6",
+    "@types/chai": "^4.1.7",
+    "@wdio/config": "^7.7.0",
+    "allure-commandline": "^2.13.8",
+    "feather-test-utils": "^1.0.0",
+    "wdio-lambdatest-service": "^1.0.3",
+    "@cucumber/cucumber": "^7.2.1",
+    "@wdio/allure-reporter": "^7.6.1",
+    "@wdio/cli": "^7.7.2",
+    "@wdio/cucumber-framework": "^7.0.6",
+    "@wdio/local-runner": "^7.6.1",
+    "@wdio/selenium-standalone-service": "^7.6.0",
+    "@wdio/sync": "^7.5.7",
+    "chai": "^4.2.0",
+    "colors": "^1.3.3",
+    "ts-node": "^10.0.0",
+    "webdriverio": "^7.7.2"
+  },
+  "devDependencies": {
+    "tsconfig-paths": "^3.9.0",
+    "typed-rest-client": "^1.5.0",
+    "typescript": "^4.3.2"
+  }
+}
