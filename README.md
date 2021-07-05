@@ -8,13 +8,9 @@ NPM  v6 (tested with v6.14.11)
 
 # Running tests
 
-To execute tests, perform the below steps
+To execute tests, perform the below steps from root directory
 
-*  navigate to folder :
-    ````
-        WDIOv7
-    ````
-*  Install dependancies :
+*  Install dependencies :
     ````
         npm ci
     ````
