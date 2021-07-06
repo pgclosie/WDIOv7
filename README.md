@@ -5,6 +5,7 @@ Case Study
 
 Node v12 (tested with v12.21.0)
 NPM  v6 (tested with v6.14.11)
+Install Java 1.8 JDK
 
 # Running tests
 
